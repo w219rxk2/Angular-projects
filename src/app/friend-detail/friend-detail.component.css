@@ -1,0 +1,52 @@
+/* HeroDetailComponent's private CSS styles */
+label {
+  display: inline-block;
+  /*width: 3em;*/
+  margin: .5em 0;
+  color: #607D8B;
+  font-weight: bold;
+}
+input {
+  height: 1em;
+  font-size: 0.8em;
+  padding-left: .3em;
+}
+button {
+  margin-top: 20px;
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer; cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
+
+.edit[_ngcontent-c2] {
+  color: #039be5;
+  cursor: pointer;
+  text-decoration: underline;
+  display: block;
+  margin: 0px 0px 3px 160px;
+  float:right;
+  display: block;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.detail-heading {
+  margin-bottom: 0px;
+}
+
+/*
+Copyright 2017-2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/

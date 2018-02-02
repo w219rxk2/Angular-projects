@@ -1,0 +1,10 @@
+<div *ngIf="selectedFriend">
+  <h2 class="detail-heading">{{selectedFriend.firstName}} Details <!--<a class="edit">edit</a>--></h2>
+  <div>
+    <label>name:
+      <input [(ngModel)]="selectedFriend.firstName" placeholder="name">
+    </label>
+  </div>
+  <button (click)="goBack()">go back</button>
+  <button (click)="save()">save</button>
+</div>
